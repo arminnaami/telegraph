@@ -1,0 +1,22 @@
+{
+  "name": "telegraph",
+  "version": "0.0.1",
+  "description": "A script file parser for the Titanic game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titanicengine/telegraph.git"
+  },
+  "keywords": [
+    "titanic"
+  ],
+  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titanicengine/telegraph/issues"
+  },
+  "homepage": "https://github.com/titanicengine/telegraph#readme"
+}
