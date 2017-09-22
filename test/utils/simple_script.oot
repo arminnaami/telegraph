@@ -1,0 +1,37 @@
+[[[
+project:
+  name: "80 Seconds"
+  author: "Kristian Freeman"
+  scenes:
+    autoId: true
+    id: numeric
+]]]
+
+[[
+scene:
+  name: "Intro"
+]]
+
+I put 80 seconds on my clock.
+
+There isn't enough time to make a plan of action, so I decide to make it up as I go.
+
+[[
+scene:
+  character: Kristian
+]]
+
+Should I jump?
+
+[Yes]("Jump")
+[No]("Intro")
+
+[[
+Scene:
+  Name: "Jump"
+]]
+
+I jumped!
+
+It's a long drop ...
+

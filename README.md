@@ -1,4 +1,4 @@
-Telegraph is a parser of script files for Telegraph, a visual novel game engine.
+Telegraph is a parser of script files for Titanic, a visual novel game engine.
 
 ---
 

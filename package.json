@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers ts:ts-node/register src/**/*_test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,20 @@
   },
   "homepage": "https://github.com/titanicengine/telegraph#readme",
   "devDependencies": {
+    "@types/chai": "^4.0.3",
+    "@types/mocha": "^2.2.41",
     "awesome-typescript-loader": "^3.2.2",
     "source-map-loader": "^0.2.1",
+    "ts-node": "^3.3.0",
     "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.74",
+    "chai": "^4.1.1",
+    "concat-stream": "^1.6.0",
+    "global": "^4.3.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "toml": "^2.3.3"
   }
 }

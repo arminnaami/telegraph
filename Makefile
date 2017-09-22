@@ -1,5 +1,7 @@
+.PHONY: all test clean
+
 default:
-	npm run build
+		yarn run build
 
 test:
-	npm run test
+		yarn run test
