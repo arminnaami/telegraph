@@ -34,11 +34,11 @@ interface ParsedFile {
 }
 
 const startingDirective = (line: string): boolean => {
-  return _.startsWith(line, '[');
+  return _.startsWith(line, '[[') || _.startsWith(line, '[[[');
 }
 
 const endingDirective = (line: string): boolean => {
-  return _.startsWith(line, ']');
+  return _.startsWith(line, ']]') || _.startsWith(line, ']]]');
 }
 
 const isGlobal = (line: string): boolean => {
